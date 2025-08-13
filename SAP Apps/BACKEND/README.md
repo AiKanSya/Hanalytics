@@ -1,3 +1,0 @@
-# 🌸 ABAP FACTORY
-
-> 🍧 ABAP Samples
