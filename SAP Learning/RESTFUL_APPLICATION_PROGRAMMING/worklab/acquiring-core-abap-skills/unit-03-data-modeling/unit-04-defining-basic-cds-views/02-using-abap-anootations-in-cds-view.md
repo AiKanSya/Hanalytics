@@ -74,13 +74,13 @@ La plupart des annotations sémantiques se résument à cela : des informations
 
 La catégorie Sémantique ne contient que quelques annotations ABAP.
 
-Dans les entités de vue CDS, il est obligatoire d'utiliser l'annotation @Semantics.amount.currencyCode pour lier les éléments de montant (type de dictionnaire prédéfini CURR) à un élément de code de devise (type de dictionnaire prédéfini CUKY). De même, il est obligatoire d'utiliser l'annotation @Semantics.quantity.unitOfMeasure pour lier les éléments de quantité (type de dictionnaire prédéfini QUAN) à un élément d'unité (type de dictionnaire prédéfini UNIT). Sans ces annotations, l'utilisateur de l'entité CDS aura des difficultés à interpréter et à traiter correctement les valeurs fournies dans ces champs.
+Dans les entités de vue CDS, il est obligatoire d'utiliser l'annotation `@Semantics.amount.currencyCode` pour lier les éléments de montant (type de dictionnaire prédéfini CURR) à un élément de code de devise (type de dictionnaire prédéfini CUKY). De même, il est obligatoire d'utiliser l'annotation `@Semantics.quantity.unitOfMeasure` pour lier les éléments de quantité (type de dictionnaire prédéfini QUAN) à un élément d'unité (type de dictionnaire prédéfini UNIT). Sans ces annotations, l'utilisateur de l'entité CDS aura des difficultés à interpréter et à traiter correctement les valeurs fournies dans ces champs.
 
 ## 🌸 GROUPED ANNOTATIONS
 
 ![](./assets/Syntax_Variants_for_A.png)
 
-Les annotations d'une même catégorie peuvent être regroupées pour indiquer clairement leur appartenance. Dans l'exemple, trois annotations appartiennent à la catégorie « ObjectModel ». Elles appartiennent toutes à la sous-catégorie « ObjectModel.usageType ». Dans l'exemple de code ci-dessous, un groupe commence par « @ObjectModel: » suivi d'accolades. Entre les accolades se trouve généralement une liste d'annotations séparées par des virgules, sans la première partie (ObjectModel). Dans notre exemple, seul un sous-groupe commence par « usageType: » et contient trois annotations séparées par des virgules.
+Les annotations d'une même catégorie peuvent être regroupées pour indiquer clairement leur appartenance. Dans l'exemple, trois annotations appartiennent à la catégorie « ObjectModel ». Elles appartiennent toutes à la sous-catégorie « ObjectModel.usageType ». Dans l'exemple de code ci-dessous, un groupe commence par `@ObjectModel:` suivi d'accolades. Entre les accolades se trouve généralement une liste d'annotations séparées par des virgules, sans la première partie (ObjectModel). Dans notre exemple, seul un sous-groupe commence par « usageType: » et contient trois annotations séparées par des virgules.
 
 ![](<./assets/Syntax_Variants_f%20(1).png>)
 
@@ -96,7 +96,7 @@ Les annotations ABAP commençant par EndUserText permettent de définir des text
 
 EndUserText.label est disponible en tant qu'annotation de vue ou d'élément. Sa valeur est limitée à 60 caractères.
 
-EndUserText.quickinfo est uniquement disponible en tant qu'annotation d'élément. Sa valeur est stockée sous forme de chaîne et sa longueur peut être arbitraire.
+`EndUserText.quickinfo` est uniquement disponible en tant qu'annotation d'élément. Sa valeur est stockée sous forme de chaîne et sa longueur peut être arbitraire.
 
 > #### 🍧 Note
 >

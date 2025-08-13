@@ -14,9 +14,9 @@ Pour créer une définition de données, procédez comme suit :
 
 1. Cliquez avec le bouton droit sur votre projet dans l'Explorateur de projets.
 
-2. Choisissez Nouveau → Objet de référentiel ABAP…
+2. Choisissez [New] → [ABAP Repository Object…]
 
-3. Dans la liste, choisissez Services de données de base → Définitions de données.
+3. Dans la liste, choisissez [Core Data Services] → [Data Definition].
 
 > #### 🍧 Hint
 >
@@ -24,7 +24,7 @@ Pour créer une définition de données, procédez comme suit :
 
 4. Cliquez sur Suivant.
 
-5. Saisissez le nom d'un package existant, ainsi qu'un nom et une description pour la nouvelle définition de données.
+5. Saisissez le nom d'un **package** existant, ainsi qu'un nom et une description pour la nouvelle définition de données.
 
 > #### 🍧 Hint
 >
@@ -32,27 +32,27 @@ Pour créer une définition de données, procédez comme suit :
 
 ![](./assets/Create_new_Data_Defin.png)
 
-Si votre package contient déjà une définition de données, vous pouvez utiliser le raccourci suivant :
+Si votre **package** contient déjà une définition de données, vous pouvez utiliser le raccourci suivant :
 
-1. Dans l'Explorateur de projets, développez le sous-nœud « Services de données de base » → « Définitions de données » du package favori.
+1. Dans l'Explorateur de projets, développez le sous-nœud « [Core Data Services] » → [Data Definition] du **package** favori.
 
-2. Cliquez avec le bouton droit sur « Définitions de données » et choisissez « Nouvelle définition de données ».
+2. Cliquez avec le bouton droit sur [Data Definition] et choisissez [New Data Definition].
 
 ## 🌸 DATA DEFINITION TEMPLATES
 
 ![](./assets/Data_Definition_Templ.png)
 
-Lorsque vous créez une nouvelle définition de données, vous pouvez partir d'une page vierge. Vous pouvez également utiliser l'un des nombreux modèles disponibles comme point de départ. Le modèle recommandé pour définir une vue simple est « Définir une entité de vue ».
+Lorsque vous créez une nouvelle définition de données, vous pouvez partir d'une page vierge. Vous pouvez également utiliser l'un des nombreux modèles disponibles comme point de départ. Le modèle recommandé pour définir une vue simple est [Define View Entity].
 
 En général, une boîte de dialogue correspondante s'affiche après avoir attribué la nouvelle définition de données à votre requête de transport. Vous pouvez toutefois revenir à la sélection du modèle ultérieurement lors de la modification.
 
 ![](<./assets/Data_Definition_T%20(1).png>)
 
-Pour choisir un modèle ultérieurement, accédez à l'onglet « Modèles » dans la barre d'onglets située sous la fenêtre de l'éditeur.
+Pour choisir un modèle ultérieurement, accédez à l'onglet [Templates] dans la barre d'onglets située sous la fenêtre de l'éditeur.
 
 > #### 🍧 Hint
 >
-> Vous pouvez définir vos propres modèles dans les préférences de l'éditeur. Accédez à Fenêtre → Préférences et recherchez « Modèles de définition de données ».
+> Vous pouvez définir vos propres modèles dans les [Preferences] de l'éditeur. Accédez à [Window] → [Preferences] et recherchez [Data Definition Templates].
 
 ## 🌸 THE FROM CLAUSE
 
@@ -64,7 +64,7 @@ La base de données d'une vue CDS est spécifiée dans l'instruction define apr�
 
 > #### 🍧 Hint
 >
-> Lorsque vous appuyez sur Ctrl + Espace pour saisir la source de données en complétant le code, l'éditeur ne suggère que les objets de développement appropriés comme sources de données.
+> Lorsque vous appuyez sur [Ctrl] + [Espace] pour saisir la source de données en complétant le code, l'éditeur ne suggère que les objets de développement appropriés comme sources de données.
 
 ## 🌸 THE ELEMENT LIST
 
@@ -74,7 +74,7 @@ La base de données d'une vue CDS est spécifiée dans l'instruction define apr�
 
 ![](./assets/04ElementList_002.png)
 
-Le mot-clé KEY permet d'intégrer un élément de vue à la clé de la vue. Les éléments clés doivent être placés dans un bloc au début de la liste des éléments.
+Le mot-clé `KEY` permet d'intégrer un élément de vue à la clé de la vue. Les éléments clés doivent être placés dans un bloc au début de la liste des éléments.
 
 Pour une vue CDS, la définition d'une clé n'est pas obligatoire, mais fortement recommandée. Un avertissement s'affichera lors de la vérification de la syntaxe si la vue ne contient pas au moins un élément clé.
 
@@ -88,19 +88,19 @@ L'ajout AS permet de définir un nom pour un élément. Si un élément est simp
 
 ![](./assets/04ElementList_003.png)
 
-Au lieu d'ajouter les champs de la source de données un par un, vous pouvez appuyer sur Ctrl + Espace et choisir « Insérer tous les éléments ». Ce modèle ajoute non seulement tous les champs de la source de données (à l'exception du champ client) à la liste des éléments, mais reprend également la définition de la clé et suggère des noms d'alias en majuscules et minuscules pour tous les champs.
+Au lieu d'ajouter les champs de la source de données un par un, vous pouvez appuyer sur Ctrl + Espace et choisir [Insert all elements]. Ce modèle ajoute non seulement tous les champs de la source de données (à l'exception du champ client) à la liste des éléments, mais reprend également la définition de la clé et suggère des noms d'alias en majuscules et minuscules pour tous les champs.
 
 > #### 🍧 Hint
 >
-> Lorsque vous créez une vue CDS avec une table de base de données ou une vue CDS comme objet référencé, le modèle « Insérer tous les éléments » est appliqué par défaut.
+> Lorsque vous créez une vue CDS avec une table de base de données ou une vue CDS comme objet référencé, le modèle [Insert all elements] est appliqué par défaut.
 
 ## 🌸 THE ELEMENT LIST
 
 ![](./assets/05FormatAndComments_0.png)
 
-La syntaxe utilisée dans les définitions de données est appelée langage de définition de données CDS (DDL). Pour une meilleure lisibilité, vous pouvez laisser ADT formater la source DDL. Placez le curseur dans la définition de données et choisissez « Code source » → « Format » dans le menu Eclipse ou appuyez sur Ctrl + F1.
+La syntaxe utilisée dans les définitions de données est appelée **CDS Data Definition Language (DDL)**. Pour une meilleure lisibilité, vous pouvez laisser ADT formater la source DDL. Placez le curseur dans la définition de données et choisissez [Source Code] → [Format] dans le menu Eclipse ou appuyez sur [Ctrl] + [F1].
 
-Par défaut, Eclipse utilise un profil de formatage standard dérivé du système ABAP. Vous pouvez définir vos propres profils de formatage dans la boîte de dialogue « Préférences » d'Eclipse. Choisissez « Fenêtre » → « Préférences » dans le menu Eclipse et recherchez « Formatage DDL ».
+Par défaut, Eclipse utilise un profil de formatage standard dérivé du système ABAP. Vous pouvez définir vos propres profils de formatage dans la boîte de dialogue « [Preferences] » d'Eclipse. Choisissez [Window] → [Preferences] dans le menu Eclipse et recherchez [DDL Formatter].
 
 ### COMMENTS IN CDS DDL
 
