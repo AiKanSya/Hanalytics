@@ -1,3 +1,3 @@
-# 🌸 Z-APPS
+# 🌸 SAP APPS
 
 > 🍧 Apps & programs
