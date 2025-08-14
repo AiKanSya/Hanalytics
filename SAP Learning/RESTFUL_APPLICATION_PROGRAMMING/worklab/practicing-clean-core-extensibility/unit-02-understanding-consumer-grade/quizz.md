@@ -1,51 +1,101 @@
-# 🌸 UNIT 1 - QUIZZ
+# 🌸 UNIT 2 - QUIZZ
 
-## 💮 Which versions of ABAP have restricted use of the ABAP programming language?
+## 💮 Which of the following are building blocks of the SAP Fiori design approach?
 
-_There are two correct answers._
+_There are three correct answers._
 
-- [ ] ABAP for Key Users
+- [ ] SAPUI5
 
-- [ ] Classic ABAP
+- [ ] Python
 
-- [ ] ABAP for Cloud Development
+- [ ] SAP Fiori elements
 
-- [ ] ABAP Objects
+- [ ] SAP Business Application Studio
 
 <details>
   <summary>Solution</summary>
 
-- [x] ABAP for Key Users
+- [x] SAPUI5
 
-- [ ] Classic ABAP
+- [ ] Python
 
-- [x] ABAP for Cloud Development
+- [x] SAP Fiori elements
 
-- [ ] ABAP Objects
+- [x] SAP Business Application Studio
 
 </details>
 
-## 💮 Unrestricted ABAP code is possible on which ABAP environments?
+## 💮 Which of the following features of SAP Build is oriented towards a citizen developer?
 
-_There are two correct answers._
+_Choose the correct answer._
 
-- [ ] SAP BTP
+- [ ] Integrated debugger
 
-- [ ] Private Cloud
+- [ ] Utilization of a particular language and/or programming model
 
-- [ ] On Premise
+- [ ] Advanced testing capabilities
 
-- [ ] Public Cloud
+- [ ] Intuitive graphical tools utilizing code generation
 
 <details>
   <summary>Solution</summary>
 
-- [ ] SAP BTP
+- [ ] Integrated debugger
 
-- [x] Private Cloud
+- [ ] Utilization of a particular language and/or programming model
 
-- [x] On Premise
+- [ ] Advanced testing capabilities
 
-- [ ] Public Cloud
+- [x] Intuitive graphical tools utilizing code generation
+
+</details>
+
+## 💮 Which of the following are reasons why a consumer-grade UX is important?
+
+_There are three correct answers._
+
+- [ ] Productivity gains
+
+- [ ] Training cost savings
+
+- [ ] Reduction in user errors
+
+- [ ] Strengthening of customer and partner relationships
+
+<details>
+  <summary>Solution</summary>
+
+- [x] Productivity gains
+
+- [x] Training cost savings
+
+- [x] Reduction in user errors
+
+- [ ] Strengthening of customer and partner relationships
+
+</details>
+
+## 💮 Which of the following are part of SAP’s LCNC toolset?
+
+_There are three correct answers._
+
+- [ ] SAP Build Apps
+
+- [ ] SAP Build Process Automation
+
+- [ ] SAP HANA Cloud
+
+- [ ] SAP Build Work Zone
+
+<details>
+  <summary>Solution</summary>
+
+- [x] SAP Build Apps
+
+- [x] SAP Build Process Automation
+
+- [ ] SAP HANA Cloud
+
+- [x] SAP Build Work Zone
 
 </details>
