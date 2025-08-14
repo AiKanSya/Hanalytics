@@ -1,51 +1,151 @@
-# 🌸 UNIT 1 - QUIZZ
+# 🌸 UNIT 3 - QUIZZ
 
-## 💮 Which versions of ABAP have restricted use of the ABAP programming language?
+## 💮 Which of the following are principles of REST architecture?
 
-_There are two correct answers._
+_There are three correct answers._
 
-- [ ] ABAP for Key Users
+- [ ] Stateless
 
-- [ ] Classic ABAP
+- [ ] Layered system
 
-- [ ] ABAP for Cloud Development
+- [ ] Cacheable
 
-- [ ] ABAP Objects
+- [ ] Virtualization
 
 <details>
   <summary>Solution</summary>
 
-- [x] ABAP for Key Users
+- [x] Stateless
 
-- [ ] Classic ABAP
+- [x] Layered system
 
-- [x] ABAP for Cloud Development
+- [x] Cacheable
 
-- [ ] ABAP Objects
+- [ ] Virtualization
 
 </details>
 
-## 💮 Unrestricted ABAP code is possible on which ABAP environments?
+## 💮 Which of the following are principles of REST architecture?
 
-_There are two correct answers._
+_There are three correct answers._
 
-- [ ] SAP BTP
+- [ ] Data Access
 
-- [ ] Private Cloud
+- [ ] Domain Model and Implementation
 
-- [ ] On Premise
+- [ ] CDS Annotations
 
-- [ ] Public Cloud
+- [ ] Business Service Exposure
 
 <details>
   <summary>Solution</summary>
 
-- [ ] SAP BTP
+- [x] Data Access
 
-- [x] Private Cloud
+- [x] Domain Model and Implementation
 
-- [x] On Premise
+- [ ] CDS Annotations
 
-- [ ] Public Cloud
+- [x] Business Service Exposure
+
+</details>
+
+## 💮 Which of the following are currently available ABAP platform reuse services?
+
+_There are three correct answers._
+
+- [ ] Smartforms
+
+- [ ] Email Service
+
+- [ ] Knowledge Transfer Documents
+
+- [ ] Change Documents
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] Smartforms
+
+- [x] Email Service
+
+- [x] Knowledge Transfer Documents
+
+- [x] Change Documents
+
+</details>
+
+## 💮 Which of the following are essential aspects of ABAP Cloud?
+
+_There are three correct answers._
+
+- [ ] ABAP Cloud language
+
+- [ ] ABAP RESTful application programming model
+
+- [ ] ABAP development tools for Eclipse
+
+- [ ] .NET & SOAP
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] ABAP Cloud language
+
+- [ ] ABAP RESTful application programming model
+
+- [ ] ABAP development tools for Eclipse
+
+- [ ] .NET & SOAP
+
+</details>
+
+## 💮 Which of the following are principles of cloud native?
+
+_There are three correct answers._
+
+- [ ] REST and CRUD
+
+- [ ] Infrastructure Independent
+
+- [ ] Microservices
+
+- [ ] Application Programming Interfaces (APIs)
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] REST and CRUD
+
+- [x] Infrastructure Independent
+
+- [x] ABAP development tools for Eclipse
+
+- [x] .NET & SOAP
+
+</details>
+
+## 💮 The term "Local Platform APIs" is directly associated with which of the following?
+
+_There are three correct answers._
+
+- [ ] SAP HANA
+
+- [ ] SAP S/4HANA Cloud, ABAP environment
+
+- [ ] SAP HANA Cloud
+
+- [ ] SAP BTP, ABAP environment
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] SAP HANA
+
+- [x] SAP S/4HANA Cloud, ABAP environment
+
+- [ ] SAP HANA Cloud
+
+- [x] SAP BTP, ABAP environment
 
 </details>
