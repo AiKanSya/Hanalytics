@@ -1,51 +1,76 @@
-# 🌸 UNIT 1 - QUIZZ
+# 🌸 UNIT 5 - QUIZZ
 
-## 💮 Which versions of ABAP have restricted use of the ABAP programming language?
+## 💮 Which of the following would a custom wrapper fall under?
 
-_There are two correct answers._
+_Choose the correct answer._
 
-- [ ] ABAP for Key Users
+- [ ] Tier 1
 
-- [ ] Classic ABAP
+- [ ] Tier 2
 
-- [ ] ABAP for Cloud Development
+- [ ] Tier 3
 
-- [ ] ABAP Objects
+- [ ] Tier 4
 
 <details>
   <summary>Solution</summary>
 
-- [x] ABAP for Key Users
+- [ ] Tier 1
 
-- [ ] Classic ABAP
+- [x] Tier 2
 
-- [x] ABAP for Cloud Development
+- [ ] Tier 3
 
-- [ ] ABAP Objects
+- [ ] Tier 4
 
 </details>
 
-## 💮 Unrestricted ABAP code is possible on which ABAP environments?
+## 💮 Which of the following does the term "Cloud Extensibility Model" refer to?
 
-_There are two correct answers._
+_Choose the correct answer._
 
-- [ ] SAP BTP
+- [ ] Tier 1
 
-- [ ] Private Cloud
+- [ ] Tier 2
 
-- [ ] On Premise
+- [ ] Tier 3
 
-- [ ] Public Cloud
+- [ ] Tier 4
 
 <details>
   <summary>Solution</summary>
 
-- [ ] SAP BTP
+- [x] Tier 1
 
-- [x] Private Cloud
+- [ ] Tier 2
 
-- [x] On Premise
+- [ ] Tier 3
 
-- [ ] Public Cloud
+- [ ] Tier 4
+
+</details>
+
+## 💮 Which of the following does the tier 2 extensibility model apply to?
+
+_Choose the correct answer._
+
+- [ ] SAP S/4HANA Cloud Public Edition
+
+- [ ] SAP S/4HANA Cloud Private Edition
+
+- [ ] SAP S/4HANA
+
+- [ ] SAP BTP, ABAP environment
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] SAP S/4HANA Cloud Public Edition
+
+- [ ] SAP S/4HANA Cloud Private Edition
+
+- [ ] SAP S/4HANA
+
+- [ ] SAP BTP, ABAP environment
 
 </details>
